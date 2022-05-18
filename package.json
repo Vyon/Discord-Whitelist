@@ -1,0 +1,34 @@
+{
+  "name": "whitelist",
+  "version": "1.0.0",
+  "description": "Discord whitelist and login system written in TypeScript",
+  "main": "source/server/index.ts",
+  "scripts": {
+    "start": "ts-node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vyon/Discord-Whitelist.git"
+  },
+  "keywords": [
+    "Roblox",
+    "Whitelist"
+  ],
+  "author": "Vyon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Vyon/Discord-Whitelist/issues"
+  },
+  "homepage": "https://github.com/Vyon/Discord-Whitelist#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.34",
+    "typescript": "^4.6.4"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "discord.js": "^13.7.0",
+    "express": "^4.18.1",
+    "fs": "^0.0.1-security",
+    "superagent": "^7.1.3"
+  }
+}

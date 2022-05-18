@@ -1,0 +1,8 @@
+{
+	"Version": "v1",
+	"AdminKey": "admin",
+	"Port": 3000,
+
+	"Prefix": "!",
+	"Token": "YOUR TOKEN HERE"
+}
